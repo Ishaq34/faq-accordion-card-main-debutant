@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mobile__illustration">
+        <img
+          src="./images/bg-pattern-mobile.svg"
+          alt="favicon shadow"
+          class="mobile__shadow"
+        />
+        <img
+          src="./images/illustration-woman-online-mobile.svg"
+          alt="woman online mobile illustration"
+          class="mobile__image"
+        />
+      </div>
+      <img
+        src="./images/illustration-box-desktop.svg"
+        alt="box illustration"
+        class="img__box"
+      />
+      <div class="image">
+        <img
+          src="./images/bg-pattern-desktop.svg"
+          alt="favicon shadow"
+          class="img__shadow"
+        />
+        <img
+          src="./images/illustration-woman-online-desktop.svg"
+          alt="woman online illustation"
+          class="img__illustration"
+        />
+      </div>
+      <div class="faq">
+        <h1>FAQ</h1>
+        <div class="questions">
+          <div class="question">
+            <div class="question__title">
+              <input type="checkbox" id="question1" /><label for="question1"
+                ><p class="title">How many team members can I invite?</p>
+                <img src="./images/icon-arrow-down.svg" alt="arrow down icon"
+              /></label>
+              <p class="answer">
+                You can invite up to 2 additional users on the Free Plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+
+          <div class="question">
+            <div class="question__title">
+              <input type="checkbox" id="question2" /><label for="question2"
+                ><p class="title">What is the maximum file upload size?</p>
+                <img src="./images/icon-arrow-down.svg" alt="arrow down icon"
+              /></label>
+              <p class="answer">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+          </div>
+
+          <div class="question">
+            <div class="question__title">
+              <input type="checkbox" id="question3" /><label for="question3"
+                ><p class="title">How do I reset my password?</p>
+                <img src="./images/icon-arrow-down.svg" alt="arrow down icon"
+              /></label>
+              <p class="answer">
+                Click "Forgot password" fron the login page or "Change password"
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+          </div>
+
+          <div class="question">
+            <div class="question__title">
+              <input type="checkbox" id="question4" /><label for="question4"
+                ><p class="title">Can I cancel my subscription?</p>
+                <img src="./images/icon-arrow-down.svg" alt="arrow down icon"
+              /></label>
+              <p class="answer">
+                Yes! Send us a message and we'll process your request no
+                questions asked.
+              </p>
+            </div>
+          </div>
+
+          <div class="question">
+            <div class="question__title">
+              <input type="checkbox" id="question5" /><label for="question5"
+                ><p class="title">Do you provide additional support?</p>
+                <img src="./images/icon-arrow-down.svg" alt="arrow down icon"
+              /></label>
+              <p class="answer">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ishaq Assal</a>.
+    </div>
+  </body>
+</html>
